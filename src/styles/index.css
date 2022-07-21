@@ -1,12 +1,24 @@
+.counterContainer {
+    display: flex;
+    background-color: black;
+    height: 35vh;
+    margin: 4vh 2vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
 
-/* 
+.counterdigit {
+    background-color: rgb(28, 29, 33);
+    color: white; 
+    font-size: 15vh;
+    padding: 0vh 2vw;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.iconClock {
+    padding-bottom: 4vh;
+}

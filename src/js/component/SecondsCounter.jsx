@@ -1,14 +1,19 @@
 import React from "react";
 
+import { FaClock } from 'react-icons/fa'
+
 const SecondsCounter = ({one, two, three, four, five, six}) => {
  return (
 	<>
-	<p>{one%10}</p>
-	<p>{two%10}</p>
-	<p>{three%10}</p>
-	<p>{four%10}</p>
-	<p>{five%10}</p>
-	<p>{six%10}</p>
+	<section className="counterContainer">
+		<div className="counterdigit">{one%10}</div>
+		<div className="counterdigit">{two%10}</div>
+		<div className="counterdigit">{three%10}</div>
+		<div className="counterdigit">{four%10}</div>
+		<div className="counterdigit">{five%10}</div>
+		<div className="counterdigit">{six%10}</div>
+		<div className="counterdigit iconClock"><FaClock></FaClock></div>
+	</section>
 	</>
  )
 };
